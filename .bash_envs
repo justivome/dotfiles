@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# default editor
+export EDITOR="nvim"
+export VISUAL="nvim"
+export SUDO_EDITOR="nvim"
+
+# PATH variables
+export PATH="${PATH}:${HOME}/.local/bin"
+export PATH="$PATH:/opt/nvim-linux64/bin"
+
+# pipenv
+export PIPENV_VENV_IN_PROJECT=1
+
+# nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
+
+# pnpm
+export PNPM_HOME="/home/ivo/.local/share/pnpm"
+case ":$PATH:" in
+*":$PNPM_HOME:"*) ;;
+*) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+
+# ghostty terminal
+export TERM=xterm-256color
+
+export XDG_DATA_DIRS="/var/lib/flatpak/exports/share:/home/ivo/.local/share/flatpak/exports/share:$XDG_DATA_DIRS"
+
