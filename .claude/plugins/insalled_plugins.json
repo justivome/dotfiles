@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "plugins": {
+    "frontend-design@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/ivo/.claude/plugins/cache/claude-plugins-official/frontend-design/b36fd4b75301",
+        "version": "b36fd4b75301",
+        "installedAt": "2025-12-16T10:04:03.553Z",
+        "lastUpdated": "2026-03-11T23:44:44.427Z"
+      }
+    ],
+    "figma@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/ivo/.claude/plugins/cache/claude-plugins-official/figma/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-16T10:04:20.316Z",
+        "lastUpdated": "2026-02-27T18:27:08.235Z",
+        "gitCommitSha": "1b34fa3e162f8908e526eef5ded9d5a133772e2e"
+      }
+    ],
+    "claude-mem@thedotmack": [
+      {
+        "scope": "local",
+        "projectPath": "/home/ivo/work/samel90/aerodefender/ui/cuas-ui",
+        "installPath": "/home/ivo/.claude/plugins/cache/thedotmack/claude-mem/9.1.1",
+        "version": "9.1.1",
+        "installedAt": "2026-02-10T14:50:05.640Z",
+        "lastUpdated": "2026-02-10T14:50:05.640Z",
+        "gitCommitSha": "edecfdb5bcc92b3149a4f3350df6878d6fb78d49"
+      }
+    ]
+  }
+}
